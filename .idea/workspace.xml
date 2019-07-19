@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc58d64-8ae9-40bc-9c27-b420cd5fc5c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/TodoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,18 +46,6 @@
                 <element signature="e#1481#1482#0" expanded="true" />
                 <element signature="e#1523#1524#0" expanded="true" />
                 <element signature="e#1555#1556#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lambda/todosprint/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,11 +120,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/TodoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,6 +178,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/RoleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/TodoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/daos/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/TodoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/UserService.java" />
       </list>
     </option>
   </component>
@@ -232,16 +242,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="todosprint" type="462c0819:PsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todosprint" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sprint-Challenge--RDBMS-and-API-Intros-java-todos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="todosprint" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563549907349</updated>
-      <workItem from="1563549912513" duration="1590000" />
+      <workItem from="1563549912513" duration="2082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1590000" />
+    <option name="totallyTimeSpent" value="2082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="166" width="1936" height="1056" extended-state="6" />
@@ -438,6 +439,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambda/todosprint/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
